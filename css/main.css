@@ -119,31 +119,45 @@ button {
 @media(max-width: 600px) {
     .btn {
         display: flex;
+        text-align: center;
         align-items: center;
         flex-direction: column-reverse;
-        margin-top: 12px;
+        width: 100%;
         
     }
     .btn a {
         text-decoration: none;
+        margin: 10px;
   
     }
     button {
-        width: 310px;
+        width: 99%;
+        padding: 10px;
+        margin-left: 6px;
+
     }
-    input[type="text"] {
+    input[type="email"] input[type="password"]{
+        width: 100%;
+        padding: 10px;
+    }
+
+
+
+    input[type="text"]{
         display: grid;
         width: 99%;
-        margin-top: 12px;
+        margin-bottom: 10px;
+        padding: 10px;
     }
+
     .description{
         display: none;
     }
     .logo img {
         width: 50%;
     }
-    .btn a {
-        margin-top: 10px;
+    .form-group{
+        width: 100%;
     }
 
 }
